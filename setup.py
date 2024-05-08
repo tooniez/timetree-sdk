@@ -8,9 +8,9 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='timetree-sdk',
+    name='tooniez-timetree-sdk',
     packages=['timetree_sdk', 'timetree_sdk/models/'],
-    version='0.1.3',
+    version='0.0.1',
     license='MIT',
     install_requires=['requests'],
     author='tooniez',

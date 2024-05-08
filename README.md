@@ -5,7 +5,7 @@
 # Installing
 
 ```
-$ pip install timetree-sdk
+$ pip install tooniez-timetree-sdk
 ```
 
 # Usage
