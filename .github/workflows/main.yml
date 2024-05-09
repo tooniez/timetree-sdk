@@ -29,6 +29,6 @@ jobs:
         
         with:
           user: __token__
-          repository-url: https://pypi.org/project/tooniez-timetree-sdk/
+          repository-url: https://upload.pypi.org/legacy/
           password: ${{ secrets.PYPI }}
 
