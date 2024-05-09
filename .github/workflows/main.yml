@@ -32,3 +32,8 @@ jobs:
           repository-url: https://upload.pypi.org/legacy/
           password: ${{ secrets.PYPI }}
 
+      - name : Upload package to GitHub
+        uses : actions/upload-artifact@v2
+        with :
+          name : dist
+          path : dist/
